@@ -1,0 +1,461 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\MVC.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MVC.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\css\\register.css",
+      "PackagePath": "staticwebassets\\css\\register.css"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\0020c103-0593-4f9b-8a31-31c66985541b.jpg",
+      "PackagePath": "staticwebassets\\uploads\\0020c103-0593-4f9b-8a31-31c66985541b.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\06ea5023-2545-4804-9862-63051983a03c.jpg",
+      "PackagePath": "staticwebassets\\uploads\\06ea5023-2545-4804-9862-63051983a03c.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\090b4aa3-bbdb-4069-bedf-74fde548ff11.jpg",
+      "PackagePath": "staticwebassets\\uploads\\090b4aa3-bbdb-4069-bedf-74fde548ff11.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\0df4e091-bf2c-4cb8-bd82-c93f82f8a88a.jpg",
+      "PackagePath": "staticwebassets\\uploads\\0df4e091-bf2c-4cb8-bd82-c93f82f8a88a.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\11c605f8-6df6-47a4-a452-56412289019c.jpg",
+      "PackagePath": "staticwebassets\\uploads\\11c605f8-6df6-47a4-a452-56412289019c.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\1c6f8b5d-dad3-40b4-93b7-c1550c21a66c.jpg",
+      "PackagePath": "staticwebassets\\uploads\\1c6f8b5d-dad3-40b4-93b7-c1550c21a66c.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\1d65098b-d311-4c74-a00a-7ed920890d4e.jpg",
+      "PackagePath": "staticwebassets\\uploads\\1d65098b-d311-4c74-a00a-7ed920890d4e.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\3369bf20-18e4-402c-82c4-9bcdf4f38960.jpg",
+      "PackagePath": "staticwebassets\\uploads\\3369bf20-18e4-402c-82c4-9bcdf4f38960.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\43246387-fcdb-472d-99f0-04600928b751.jpg",
+      "PackagePath": "staticwebassets\\uploads\\43246387-fcdb-472d-99f0-04600928b751.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\44741870-94ae-4351-a611-b12e4f68aaac.jpg",
+      "PackagePath": "staticwebassets\\uploads\\44741870-94ae-4351-a611-b12e4f68aaac.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\450b84f5-8644-4679-9d40-43617de19fef.jpg",
+      "PackagePath": "staticwebassets\\uploads\\450b84f5-8644-4679-9d40-43617de19fef.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\46764426-b0b9-42a0-972c-84ef658aac66.jpg",
+      "PackagePath": "staticwebassets\\uploads\\46764426-b0b9-42a0-972c-84ef658aac66.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\4ef0a110-0f48-4011-90a6-d039c135810e.jpg",
+      "PackagePath": "staticwebassets\\uploads\\4ef0a110-0f48-4011-90a6-d039c135810e.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\4f80bad9-c7e0-4f18-b504-75396182b119.jpg",
+      "PackagePath": "staticwebassets\\uploads\\4f80bad9-c7e0-4f18-b504-75396182b119.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\51e470e2-f9d8-444c-84d3-f4a0144e414c.jpg",
+      "PackagePath": "staticwebassets\\uploads\\51e470e2-f9d8-444c-84d3-f4a0144e414c.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\53979135-22a5-43c6-b64b-8d29f327fe8c.jpg",
+      "PackagePath": "staticwebassets\\uploads\\53979135-22a5-43c6-b64b-8d29f327fe8c.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\58e99894-b1b7-4582-ae70-89d4e381ec44.jpg",
+      "PackagePath": "staticwebassets\\uploads\\58e99894-b1b7-4582-ae70-89d4e381ec44.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\5cef4442-af5f-42d4-a88a-3270e198dc6b.jpg",
+      "PackagePath": "staticwebassets\\uploads\\5cef4442-af5f-42d4-a88a-3270e198dc6b.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\67623ec2-8008-4d54-b76d-3b9db8b66ff2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\67623ec2-8008-4d54-b76d-3b9db8b66ff2.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\68771fdd-a2d2-4893-9828-dbca3f3847ab.jpg",
+      "PackagePath": "staticwebassets\\uploads\\68771fdd-a2d2-4893-9828-dbca3f3847ab.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\6cfad347-e8ad-4b04-8399-d59ae70a048d.jpg",
+      "PackagePath": "staticwebassets\\uploads\\6cfad347-e8ad-4b04-8399-d59ae70a048d.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\706cc333-6300-45e5-9ed3-25e8ee49a206.jpg",
+      "PackagePath": "staticwebassets\\uploads\\706cc333-6300-45e5-9ed3-25e8ee49a206.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\70a277e1-b7a0-4e13-96bd-420d2c297465.jpg",
+      "PackagePath": "staticwebassets\\uploads\\70a277e1-b7a0-4e13-96bd-420d2c297465.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\75735141-a770-4f82-8b94-56a9deb4dece.jpg",
+      "PackagePath": "staticwebassets\\uploads\\75735141-a770-4f82-8b94-56a9deb4dece.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\7b2a4074-9a0c-42db-81c8-24dd3ee8adfb.jpg",
+      "PackagePath": "staticwebassets\\uploads\\7b2a4074-9a0c-42db-81c8-24dd3ee8adfb.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\7cbc668e-5985-449b-b78f-c3b08fadfdae.jpg",
+      "PackagePath": "staticwebassets\\uploads\\7cbc668e-5985-449b-b78f-c3b08fadfdae.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\7f8208d2-86fb-402b-8007-50dbf15238c9.jpg",
+      "PackagePath": "staticwebassets\\uploads\\7f8208d2-86fb-402b-8007-50dbf15238c9.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\806f1a8f-e447-440b-911e-f474d259e679.jpg",
+      "PackagePath": "staticwebassets\\uploads\\806f1a8f-e447-440b-911e-f474d259e679.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\893df9b4-282f-4905-af9a-50e60a8bf9db.jpg",
+      "PackagePath": "staticwebassets\\uploads\\893df9b4-282f-4905-af9a-50e60a8bf9db.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\8b2f63a7-c853-4eed-8992-41278c05bd57.jpg",
+      "PackagePath": "staticwebassets\\uploads\\8b2f63a7-c853-4eed-8992-41278c05bd57.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\973283b4-08a5-4b3e-bc67-a80bc93aea59.jpg",
+      "PackagePath": "staticwebassets\\uploads\\973283b4-08a5-4b3e-bc67-a80bc93aea59.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\98e5115c-4171-45e5-89f2-62c56741d862.jpg",
+      "PackagePath": "staticwebassets\\uploads\\98e5115c-4171-45e5-89f2-62c56741d862.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\9de08c4a-7d63-4586-9375-a804ad702f94.jpg",
+      "PackagePath": "staticwebassets\\uploads\\9de08c4a-7d63-4586-9375-a804ad702f94.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\a60cfd4c-1954-4b10-b7a7-abb8d4080d0f.jpg",
+      "PackagePath": "staticwebassets\\uploads\\a60cfd4c-1954-4b10-b7a7-abb8d4080d0f.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\ae1d5017-9f9b-4382-a6bd-7cc02f0df8ce.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ae1d5017-9f9b-4382-a6bd-7cc02f0df8ce.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\aea74fdd-125b-4482-ae7e-2f61ff9d1dfc.jpg",
+      "PackagePath": "staticwebassets\\uploads\\aea74fdd-125b-4482-ae7e-2f61ff9d1dfc.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\b3f06de5-8260-4dbe-aaad-9e330c00bb43.jpg",
+      "PackagePath": "staticwebassets\\uploads\\b3f06de5-8260-4dbe-aaad-9e330c00bb43.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\b5302656-e804-4f39-ad36-dc82434b601e.jpg",
+      "PackagePath": "staticwebassets\\uploads\\b5302656-e804-4f39-ad36-dc82434b601e.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\be8fe121-580d-4e88-ab1d-1222de9447d0.jpg",
+      "PackagePath": "staticwebassets\\uploads\\be8fe121-580d-4e88-ab1d-1222de9447d0.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\c347601c-1deb-4906-8059-2068bbfa3329.jpg",
+      "PackagePath": "staticwebassets\\uploads\\c347601c-1deb-4906-8059-2068bbfa3329.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\c884cd90-5429-4688-b92c-7a23f0a7872c.jpg",
+      "PackagePath": "staticwebassets\\uploads\\c884cd90-5429-4688-b92c-7a23f0a7872c.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\dd33e7b5-229f-4746-90b1-d5c2bb58bcf4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\dd33e7b5-229f-4746-90b1-d5c2bb58bcf4.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\e0ecd940-658a-470e-aaeb-f471efde046f.jpg",
+      "PackagePath": "staticwebassets\\uploads\\e0ecd940-658a-470e-aaeb-f471efde046f.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\e766b4c4-37c3-41ed-8264-c5157c871366.jpg",
+      "PackagePath": "staticwebassets\\uploads\\e766b4c4-37c3-41ed-8264-c5157c871366.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\ed841d54-7236-4c0d-a032-2293eadbb16c.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ed841d54-7236-4c0d-a032-2293eadbb16c.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\ee73943a-c61d-42ce-80f7-b50755ac480a.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ee73943a-c61d-42ce-80f7-b50755ac480a.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\f4544e88-d78a-4686-a857-bd1996e8a4de.jpg",
+      "PackagePath": "staticwebassets\\uploads\\f4544e88-d78a-4686-a857-bd1996e8a4de.jpg"
+    },
+    {
+      "Id": "D:\\SEM3\\APS.net\\MVC\\wwwroot\\uploads\\ff49e45d-7bf5-4b76-b879-638c3429b97a.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ff49e45d-7bf5-4b76-b879-638c3429b97a.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.MVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.MVC.props",
+      "PackagePath": "build\\MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.MVC.props",
+      "PackagePath": "buildMultiTargeting\\MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.MVC.props",
+      "PackagePath": "buildTransitive\\MVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

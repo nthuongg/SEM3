@@ -1,0 +1,28 @@
+﻿@model List<MVC.Entities.Category>
+@{
+}
+<div class="container">
+    <h1>Category</h1>
+    <a class="text-primary" asp-controller="Category" asp-action="Create">Create a category</a>
+    <table class="table table-bordered table-striped">
+        <thead>
+        <th>ID</th>
+        <th>Name</th>
+        <th></th>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Name</td>
+                    <td>
+                        <a asp-controller="Category" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                        <a onclick="return confirm('Delete category @item.Name')" 
+                           asp-controller="Category" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
