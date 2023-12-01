@@ -1,6 +1,7 @@
-import axios from "axios";
 import React from "react";
 import { Card, Col, Row } from "react-bootstrap";
+import api from "../../services/api";
+import { get_product } from "../../services/product.service";
 
 class HomePage extends React.Component {
     constructor(props) {
@@ -10,17 +11,9 @@ class HomePage extends React.Component {
         }
     }
 
-    componentDidMount() {
-        //call api
-        const url = `https://dummyjson.com/products?limit=12`;
-        axios.get(url)
-            .then(rs => {
-                //response body của api -> rs.data
-                this.setState({ products: rs.data.products });
-            })
-            .catch(err => { 
-                console.log(err) 
-            });
+    async componentDidMount() {
+        const products = await get_product(12);
+        this.setState({products:products});
     }
     render() {
         const products = this.state.products;
