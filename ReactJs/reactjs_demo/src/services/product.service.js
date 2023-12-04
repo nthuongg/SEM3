@@ -9,3 +9,13 @@ export const get_product = async (limit)=>{
         return [];
     }
 }
+
+export const detail_product = async (id)=>{
+     try {
+        const url = `products/${id}`;
+        const rs = await api.get(url);
+        return rs.data;
+    } catch (error) {
+        return {};
+    }
+}
