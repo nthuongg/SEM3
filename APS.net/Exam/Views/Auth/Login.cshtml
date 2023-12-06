@@ -1,0 +1,32 @@
+﻿@{
+    // Đây là chỗ code C# (view engine)
+    Layout = "";
+}
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="~/css/register.css" asp-append-version="true" />
+
+<div class="testbox">
+    <h1>Log in</h1>
+
+    <form action="/">
+        <hr>
+        <div class="accounttype">
+            <input type="radio" value="None" id="radioOne" name="account" checked />
+            <label for="radioOne" class="radio" chec>Personal</label>
+            <input type="radio" value="None" id="radioTwo" name="account" />
+            <label for="radioTwo" class="radio">Company</label>
+        </div>
+        <hr>
+        <label id="icon" for="name"><i class="icon-envelope "></i></label>
+        <input type="text" name="name" id="name" placeholder="Email" required />        
+        <label id="icon" for="name"><i class="icon-shield"></i></label>
+        <input type="password" name="name" id="name" placeholder="Password" required />       
+        <p>
+            <a class="nav-link text-dark" asp-area="" asp-controller="Auth" asp-action="Register">Create an acount</a>
+        </p>
+
+        <a href="#" class="button">Login</a>
+    </form>
+</div>

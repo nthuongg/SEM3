@@ -22,7 +22,7 @@ function App() {
         <div className='content'>
           <Routes>
             <Route path='/' element={<HomePage />} />
-            <Route path='/category' element={<CategoryPage />} />
+            <Route path='/category/:category' element={<CategoryPage />} />
             <Route path='/product' element={<ProductPage />} />
             <Route path='/product/:id' element={<ProductDetail />} />
             <Route path='/register' element={<RegisterPage />} />

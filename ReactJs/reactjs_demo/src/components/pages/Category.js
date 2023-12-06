@@ -1,16 +1,13 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Card, Col, Row } from "react-bootstrap";
 import { get_product } from "../../services/product.service";
 
-function CategoryPage(){
-    const [products, setProducts] = useState([]);
-    const load_products = async ()=>{
-        const rs = await get_product(8);
-        setProducts(rs);
-    }
+function CategoryPage  (){
+    const [products, setProducts] = useState([]); // mảng lưu trữ danh sách sản phẩm thuộc danh mục được chọn.
+    
 
     useEffect(()=> { // check sự thay đổi của các state
-        load_products();                
+                        
     },[]); //  truyền mảng rỗng tức là tương đương componentDidMount  //chỉ chạy 1 lần duy nhất sau khi in ra giao diện
     return (
         <div className="container">
@@ -35,5 +32,5 @@ function CategoryPage(){
                 </Row>
         </div>
     )
-}
+};
 export default CategoryPage;

@@ -1,0 +1,28 @@
+﻿@model List<MVC.Models.UserRegisterModel>
+@{
+    // var ls = ViewData["users"];
+    var ls = ViewBag.users;
+}
+
+<div class="container">
+    <h1>Danh sách người dùng (số lượng: @Model.Count)</h1>
+    <table class="table table-striped table-bordered">
+        <thead>
+            <th>ID</th>
+            <th>Email</th>
+            <th>Full Name</th>
+            <th>Telephone</th>
+        </thead>
+        <tbody>
+            @foreach(MVC.Models.UserRegisterModel item in Model)
+            {
+                <tr>
+                    <th>@item.Id</th>
+                    <th>@item.Email</th>
+                    <th>@item.FullName</th>
+                    <th>@item.Telephone</th>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
