@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MVC.Entities
 {
-    [Table("Department")]
+    [Table("departments")]
     public class Department
     {
         [Key]

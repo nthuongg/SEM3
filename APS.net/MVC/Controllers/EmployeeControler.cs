@@ -7,6 +7,7 @@ using MVC.Entities;
 using MVC.Models;
 using MVC.Entities;
 using MVC.Models;
+using Microsoft.AspNetCore.Mvc.Rendering;
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace MVC.Controllers
@@ -27,7 +28,7 @@ namespace MVC.Controllers
             return View(ls);
         }
 
-        public IActionResult Create()
+        public IActionResult Add()
         {
             return View();
         }
@@ -35,18 +36,25 @@ namespace MVC.Controllers
 
 
         [HttpPost]
-        public IActionResult Create(EmployeeModel model)
+        public IActionResult Add(EmployeeModel model)
         {
             if (ModelState.IsValid)
             {
                 
                 //save to db
-                _context.Employees.Add(new Employee { Name = model.Name});
+                _context.Employees.Add(new Employee { 
+                    Name = model.Name,                    
+                    Code = model.Code,
+                    Rank = model.Rank,
+                    DepartmentId = model.DepartmentId
+                });
                 _context.SaveChanges();
 
                 //redirect to list
                 return RedirectToAction("Index");
             }
+            var departments = _context.Departments.ToList();
+            ViewBag.Departments = new SelectList(departments, "DepartmentId");
             return View(model);
         }
 

@@ -11,11 +11,11 @@ using MVC.Models;
 
 namespace MVC.Controllers
 {
-    public class DepartmentControler : Controller
+    public class DepartmentController : Controller
     {
         private readonly DataContext _context;
 
-        public DepartmentControler(DataContext context)
+        public DepartmentController(DataContext context)
         {
             _context = context;
         }
@@ -27,7 +27,7 @@ namespace MVC.Controllers
             return View(ls);
         }
 
-        public IActionResult Create()
+        public IActionResult Add()
         {
             return View();
         }
@@ -35,13 +35,13 @@ namespace MVC.Controllers
 
 
         [HttpPost]
-        public IActionResult Create(DepartmentModel model)
+        public IActionResult Add(DepartmentModel model)
         {
             if (ModelState.IsValid)
             {
                 
                 //save to db
-                _context.Departments.Add(new Department { Name = model.Name});
+                _context.Departments.Add(new Department { Name = model.Name, Code = model.Code, Location = model.Location });
                 _context.SaveChanges();
 
                 //redirect to list
@@ -56,7 +56,7 @@ namespace MVC.Controllers
             Department department = _context.Departments.Find(id);
             if (department == null)
                 return NotFound();
-            return View(new DepartmentModel { Id = department.Id, Name = department.Name });
+            return View(new DepartmentModel { Id = department.Id, Name = department.Name, Code = department.Code, Location = department.Location });
         }
 
         [HttpPost]
@@ -65,7 +65,7 @@ namespace MVC.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Departments.Update(new Department { Id = model.Id, Name = model.Name });
+                _context.Departments.Update(new Department { Id = model.Id, Name = model.Name, Code = model.Code, Location = model.Location });
                 _context.SaveChanges();
                 return RedirectToAction("Index");
             }

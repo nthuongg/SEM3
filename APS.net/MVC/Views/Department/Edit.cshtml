@@ -1,13 +1,66 @@
-﻿<!DOCTYPE html>
+﻿@model MVC.Models.DepartmentModel
+@{
+}
+<div class="container">
+    @using (Html.BeginForm("Edit", "Department", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(m=>m.Id)
+        <div class="border rounded">
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>@ViewBag.Title</title>
-</head>
-<body>
-    <div>
-        @RenderBody()
-    </div>
-</body>
-</html>
+            <div class="row m-3 g-3 align-items-center">
+
+                <div class="col-1">
+                    <label for="inputName" class="form-label">Name</label>
+                </div>
+                <div class="col">
+                    @Html.TextBoxFor(m => m.Name, new { @class = "form-control", placeholder = "Name" })
+                    <p>
+                        @Html.ValidationMessageFor(m => m.Name, "", new { @class = "text-danger" })
+                    </p>
+                </div>
+
+            </div>
+            <div class="row m-3 g-3 align-items-center">
+
+                <div class="col-1">
+                    <label for="inputCode" class="form-label">Code</label>
+                </div>
+                <div class="col">
+                    @Html.TextBoxFor(m => m.Code, new { @class = "form-control", placeholder = "Code" })
+                    <p>
+                        @Html.ValidationMessageFor(m => m.Code, "", new { @class = "text-danger" })
+                    </p>
+                </div>
+            </div>
+
+            <div class="row m-3 g-3 align-items-center">
+
+                <div class="col-1">
+                    <label for="inputLocation" class="form-label">Location</label>
+                </div>
+                <div class="col">
+                    @Html.TextBoxFor(m => m.Location, new { @class = "form-control", placeholder = "Location" })
+                    <p>
+                        @Html.ValidationMessageFor(m => m.Location, "", new { @class = "text-danger" })
+                    </p>
+                </div>
+            </div>
+
+            <div class="row m-3 g-3 align-items-center">
+
+                <div class="col-1">
+                    <label for="inputNumber" class="form-label">Number</label>
+                </div>
+                <div class="col">
+                    @Html.TextBoxFor(m => m.NumberOfPersonals, new { @class = "form-control",type="number", placeholder = "NumberOfPersonals" })
+                    <p>
+                        @Html.ValidationMessageFor(m => m.NumberOfPersonals, "", new { @class = "text-danger" })
+                    </p>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+
+    }
+</div>

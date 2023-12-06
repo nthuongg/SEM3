@@ -9,10 +9,7 @@ namespace MVC.Models
         [Required(ErrorMessage = "Please enter name !")]
         public string Name { get; set; }
         public string Code { get; set; }
-        public string Rank { get; set; }
-
-        // Foreign Key
-        public int DepartmentId { get; set; }
-        public DepartmentModel Department { get; set; }
+        public string Rank { get; set; }        
+        public int DepartmentId { get; internal set; }
     }
 }

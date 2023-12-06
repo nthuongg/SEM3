@@ -1,13 +1,34 @@
-﻿<!DOCTYPE html>
+﻿@model MVC.Models.EmployeeModel
+@{
+}
+<div class="container">
+    @using (Html.BeginForm(FormMethod.Post, new { @enctype = "multipart/form-data" }))
+    {
+        @Html.AntiForgeryToken()
+        <div class="form-group">
+            @Html.LabelFor(m => m.Name)
+            @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Name, "", new { @class = "text-danger" })
+        </div>
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>@ViewBag.Title</title>
-</head>
-<body>
-    <div>
-        @RenderBody()
-    </div>
-</body>
-</html>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Code)
+            @Html.TextBoxFor(m => m.Code, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Code, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Rank)
+            @Html.TextBoxFor(m => m.Rank, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Rank, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.DepartmentId)
+            @Html.DropDownListFor(m => m.DepartmentId, (SelectList)ViewBag.Departments, "Select Department", new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.DepartmentId, "", new { @class = "text-danger" })
+        </div>
+
+        <button type="submit" class="btn btn-primary">Add Employee</button>
+    }
+</div>
