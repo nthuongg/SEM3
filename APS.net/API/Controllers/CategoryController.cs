@@ -1,13 +1,19 @@
-﻿using API.Entities;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using System.ComponentModel;
+using API.Entities;
 using API.DTOs;
 using API.Models;
+using Microsoft.AspNetCore.Authorization;
+
 
 namespace API.Controllers
 {
     [ApiController]
     [Route("/api/category")]
+    [Authorize(Roles = "Admin")]
     public class CategoryController : Controller
     {
         private readonly T2210mApiContext _context;
@@ -15,6 +21,7 @@ namespace API.Controllers
         {
             _context = context;
         }
+
         [HttpGet]
         public IActionResult Index()
         {
@@ -29,6 +36,7 @@ namespace API.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public IActionResult Create(CategoryModel model)
         {
             if (ModelState.IsValid)
@@ -61,12 +69,15 @@ namespace API.Controllers
                 }
                 catch(Exception e) 
                 {
-                    return BadRequest(e.Message);                }
+                    return BadRequest(e.Message);                
+                }
             }
             return BadRequest("Error");
         }
 
         [HttpDelete]
+        //Xóa thì phải là super admin (root@admin.com)
+        [Authorize(Policy = "SuperAdmin")]
         public IActionResult Delete(int id)
         {
             try
