@@ -1,0 +1,15 @@
+﻿﻿1. Kiến Trúc Serverless:
+Lý do:
+Giảm quản lý máy chủ, giúp tối ưu hóa chi phí xây dựng.
+Tự động mở rộng linh hoạt, đáp ứng nhu cầu tăng giảm trong mua sắm.
+Mô hình thanh toán theo sử dụng giảm chi phí vận hành trong thời kỳ ít hoạt động.
+2. Cơ Sở Hạ Tầng Dựa Trên Đám Mây:
+Lý do:
+Tính linh hoạt và mở rộng, tối ưu hóa chi phí xây dựng và vận hành.
+Triển khai và giảm tài nguyên dựa trên nhu cầu thực tế của người dùng.
+Dịch vụ đám mây cung cấp nhiều tiện ích, từ cơ sở dữ liệu đến máy chủ không máy chủ.
+3. Kiến Trúc Microservices:
+Lý do:
+Chia ứng dụng thành các dịch vụ nhỏ, độc lập, giúp tối ưu hóa chi phí xây dựng và bảo trì.
+Mỗi dịch vụ có thể mở rộng độc lập, hỗ trợ phân bổ tài nguyên theo nhu cầu từng chức năng.
+Sự linh hoạt này giúp bảo trì và cập nhật dễ dàng, giảm thời gian ngừng hoạt động.
